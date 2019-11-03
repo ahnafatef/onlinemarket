@@ -1,0 +1,23 @@
+/* site-color : #e8c14d*/
+
+body>* {
+	background-color: #e8c14d;
+}
+
+.icon-big {
+	font-size: 2rem;
+	color: #e8c14d;
+}
+
+.icon-text {
+	font-size: 1rem;
+	color: #e8c14d;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.jumbotron--medium {
+	height: 12rem;
+}
