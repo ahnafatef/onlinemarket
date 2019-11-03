@@ -4,6 +4,12 @@
 	backface-visibility: hidden;
 }
 
+/*
+body, html {
+	height: 100vh;
+}
+*/
+
 body>* {
 	background-color: #e8c14d;
 }
@@ -27,12 +33,12 @@ a {
 }*/
 
 .shadow{
-	box-shadow: 7px 8px 16px rgba(0, 0, 0, 0.22) !important;
+	box-shadow: 7px 8px rgba(0, 0, 0, 0.22) !important;
 }
 
 .raised-effect:hover {
 	transform: scale(1.01, 1.01);
-	box-shadow: 3px 5px 16px rgba(0,0,0,0.22) !important;
+	box-shadow: 3px 5px rgba(0,0,0,0.22) !important;
 }
 
 .fa-shopping-cart {
@@ -58,4 +64,20 @@ a {
 	font-size: 18px;
 	position: absolute;
 	transform: translate(106%, 28%);
+}
+
+.form-row {
+	margin-bottom: 10px !important;
+}
+
+.form-container {
+	margin: 0 auto;
+	max-width: 40rem;
+	padding: 2rem 5rem 2rem 5rem;
+	box-shadow: 5px 5px 28px rgba(0,0,0, 0.22);
+
+}
+
+.container {
+	height: 100vh;
 }

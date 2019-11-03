@@ -10,24 +10,22 @@
 
 <body>
     <div class="container">
-        <!-- jumbotron -->
-        <div class="jumbotron jumbotron--medium mb-2">
-            <h1 class="display-4">Welcome, to the Random Shop!</h1>
-            <p class="lead">Here, you'll find random items with random names, prices and purpose.</p>
-        </div>
+        <div style='height:1px;'></div>
         <!-- nav bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-            <a class="navbar-brand" href="index.html">Random</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded mt-3 mb-3">
+            <a class="navbar-brand" href="../index.html">Random</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-3">
-                        <a href='#'><i class="fas fa-shopping-cart icon-big"><div class='item-count' data-item-count=''></div></i></a>
+                        <a href='#'><i class="fas fa-shopping-cart icon-big">
+                                <div class='item-count' data-item-count=''></div>
+                            </i></a>
                     </li>
                     <li class="nav-item d-flex">
-                        <a href="new_product/new_product.html" class='d-flex align-items-center'><i class="fas fa-plus icon-big"></i>
+                        <a href="#" class='d-flex align-items-center'><i class="fas fa-plus icon-big"></i>
                             <span class='icon-text pl-2'>Add new product</span>
                         </a>
                         <!-- <a class="nav-link" href="#">Add new product</a> -->
@@ -35,9 +33,38 @@
                 </ul>
             </div>
         </nav>
-        <!-- item grid -->
-        <div class="card-deck mt-5" id='card-deck-container'>
+        <!-- form -->
+        <div class="form-container">
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Description">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Photo Url">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Stock">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Price">
+                    </div>
+                </div>
+
+            </form>
         </div>
+    </div>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
